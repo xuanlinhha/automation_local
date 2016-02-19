@@ -1,0 +1,48 @@
+# TYPE ID LOCATION DESCRIPTION
+
+# root
+SWITCH	0	1	Main Building Switch
+
+# levels
+SWITCH	0_0	1	Level 1 Switch
+SWITCH	0_1	1	Level 2 Switch
+
+# rooms level 0
+SWITCH	0_0_0	1	Room 1 Switch
+SWITCH	0_0_1	1	Room 2 Switch
+SWITCH	0_0_2	1	Room 3 Switch
+
+# rooms level 1
+SWITCH	0_1_0	1	Room 1 Switch
+SWITCH	0_1_1	1	Room 2 Switch
+SWITCH	0_1_2	1	Room 3 Switch
+
+# devices room 0, level 0
+MOOD_LIGHT	0_0_0_0	2	Mood Light 1
+COLOR_LIGHT	0_0_0_1	2	Light 2
+LIGHT	0_0_0_2	2	Light 3
+LIGHT	0_0_0_3	2	Light 4
+
+# device room 1, level 0
+MOOD_LIGHT	0_0_1_0	2	Mood Light 1
+COLOR_LIGHT	0_0_1_1	2	Light 2
+LIGHT	0_0_1_2	2	Light 3
+LIGHT	0_0_1_3	2	Light 4
+
+# device room 2, level 0
+LIGHT	0_0_2_0	2	Light 1
+LIGHT	0_0_2_1	2	Light 2
+LIGHT	0_0_2_2	2	Light 3
+LIGHT	0_0_2_3	2	Light 4
+
+# devices room 0, level 1
+LIGHT	0_1_0_0	3	Light 1
+LIGHT	0_1_0_1	3	Light 2
+LIGHT	0_1_0_2	3	Light 3
+LIGHT	0_1_0_3	3	Light 4
+
+# devices room 1, level 1
+LIGHT	0_1_1_0	3	Light 1
+LIGHT	0_1_1_1	3	Light 2
+LIGHT	0_1_1_2	3	Light 3
+LIGHT	0_1_1_3	3	Light 4

@@ -1,0 +1,15 @@
+1. File -> Node / Node -> File
+TYPE ID LOCATION DESCRIPTION
+
+2. Node -> String
+TYPE ID DESCRIPTION STATUS
+
+3. Internet Command String -> Internet Command
+TYPE AUTOMATION/0.1
+ID	PARAMS
+0x04
+
+4. Internet Response -> Internet Response String
+STATUS AUTOMATION/0.1
+DATA
+0x04
